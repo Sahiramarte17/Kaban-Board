@@ -5,7 +5,7 @@
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(142, 140, 140, 0.87);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -32,7 +32,7 @@ a:hover {
 }
 
 body {
-  background: #ECF0F1;
+  background: hwb(19 55% 34%);
   background-size: cover;
   background-repeat: no-repeat no-repeat;
   background-position: center center;
@@ -54,7 +54,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #a945a9;
+  background-color: #5b3825;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -105,7 +105,7 @@ tbody tr:nth-child(odd) {
 }
 
 .nav-title a {
-  color: #b864c4;
+  color: #51310f;
 }
 
 .nav-item {
@@ -151,11 +151,11 @@ tbody tr:nth-child(odd) {
 }
 
 .inprogress {
-  background-color: #b864c4;
+  background-color: #593d1c;
 }
 
 .done {
-  background-color: #732381;
+  background-color: #845319;
 }
 
 .ticket-card {
@@ -183,7 +183,7 @@ tbody tr:nth-child(odd) {
 .form {
   width: 60%;
   height: 80%;
-  background-color: #b864c4;
+  background-color: #c19677;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -192,7 +192,7 @@ tbody tr:nth-child(odd) {
 }
 
 .form > h1, .form > label {
-  color: yellow;
+  color: rgb(48, 25, 5);
 }
 
 .form > input {
