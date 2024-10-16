@@ -1,9 +1,16 @@
 import { JwtPayload, jwtDecode } from 'jwt-decode';
 
+
 class AuthService {
   getProfile() {
     // TODO: return the decoded token
+    const token = this.getToken(); // Get the token from localStorage
+    if (token) {
+      return jwtDecode<JwtPayload>(token); // Decode and return the JWT token
+    }
+    return null;
   }
+  
 
   loggedIn() {
     // TODO: return a value that indicates if the user is logged in
