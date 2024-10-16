@@ -14,11 +14,14 @@ class AuthService {
 
   loggedIn() {
     // TODO: return a value that indicates if the user is logged in
+    const token = this.getToken();
+    return !!token && !this.isTokenExpired(token); // !! coerces the token into a boolean
   }
+
   
   isTokenExpired(token: string) {
     // TODO: return a value that indicates if the token is expired
-  }
+  
 
   getToken(): string {
     // TODO: return the token
