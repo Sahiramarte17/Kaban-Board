@@ -4,17 +4,19 @@ import auth from '../utils/auth';
 
 const Navbar = () => {
   const [loginCheck, setLoginCheck] = useState(false);
+ 
 
   const checkLogin = () => {
     if (auth.loggedIn()) {
       setLoginCheck(true);
+    } else {
+      setLoginCheck(false);
     }
   };
 
   useEffect(() => {
-    console.log(loginCheck);
     checkLogin();
-  }, [loginCheck]);
+  }, []);
 
   return (
     <div className='nav'>
@@ -25,9 +27,10 @@ const Navbar = () => {
         {
           !loginCheck ? (
             <li className='nav-item'>
-              <button type='button'>
-                <Link to='/login'>Login</Link>
-              </button>
+              <Link to='/login'>
+                <button type='button'>Login</button>
+              </Link>
+              
             </li>
           ) : (
             <>
@@ -49,5 +52,9 @@ const Navbar = () => {
   );
 };
 
+
+console.log('Rendering NewTicketButton'); // Add this in your button component
+
 export default Navbar;
+
 
