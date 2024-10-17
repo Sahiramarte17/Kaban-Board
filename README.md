@@ -19,5 +19,23 @@ Session Expiry:
 Sessions expire after a defined period of inactivity.
 Users are redirected to the login page if their session is expired or invalid.
 
+# Technologies Used
+Frontend:
+
+React (with React Router for routing)
+Axios (for API requests)
+CSS (for styling)
+
+Backend:
+
+Node.js and Express (API and server)
+Sequelize (ORM for database interaction)
+PostgreSQL (Database)
+
+Authentication:
+
+JSON Web Tokens (JWT)
+bcrypt (for password hashing)
+
 
 
