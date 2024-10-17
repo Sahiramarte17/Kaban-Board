@@ -44,5 +44,11 @@ Node.js and npm
 PostgreSQL database
 Git
 
+# Usage
+Login: Navigate to the /login route and log in with your credentials.
+Add a New Ticket: Once logged in, click on the "New Ticket" button to create new tasks.
+View Tasks: Tasks will be displayed in columns (To Do, In Progress, Done).
+Logout: Click the "Logout" button in the navigation bar to end your session.
+
 
 
