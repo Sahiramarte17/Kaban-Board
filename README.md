@@ -45,10 +45,28 @@ PostgreSQL database
 Git
 
 # Usage
-Login: Navigate to the /login route and log in with your credentials.
-Add a New Ticket: Once logged in, click on the "New Ticket" button to create new tasks.
-View Tasks: Tasks will be displayed in columns (To Do, In Progress, Done).
+Login: 
+Navigate to the /login route and log in with your credentials.
+Add a New Ticket: 
+Once logged in, click on the "New Ticket" button to create new tasks.
+View Tasks: 
+Tasks will be displayed in columns (To Do, In Progress, Done).
 Logout: Click the "Logout" button in the navigation bar to end your session.
+
+# Deployment
+To deploy the application to Render, follow these steps:
+
+Create Render accounts for both the frontend and backend projects.
+
+Connect GitHub to Render and link the repositories.
+
+Set environment variables in Render's dashboard (same as in the .env file).
+
+Deploy both the backend and frontend from the Render dashboard.
+
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 
 
