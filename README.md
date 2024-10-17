@@ -37,5 +37,12 @@ Authentication:
 JSON Web Tokens (JWT)
 bcrypt (for password hashing)
 
+# Setup and Installation
+Prerequisites:
+
+Node.js and npm
+PostgreSQL database
+Git
+
 
 
