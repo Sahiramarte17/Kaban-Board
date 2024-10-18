@@ -1,26 +1,29 @@
+import axios from 'axios';
 import { UserLogin } from "../interfaces/UserLogin";
+
+const API_URL = 'http://localhost:3001'; // Replace with your actual backend URL
 
 const login = async (userInfo: UserLogin) => {
   try {
-    const response = await fetch('/auth/login', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(userInfo),
-    });
-
-    if (!response.ok) {
-      throw new Error('Login failed');
-    }
-
-    const data = await response.json();
-    return data.token; // Return the token
+    const response = await axios.post(`${API_URL}/auth/login`, userInfo);
+    return response.data; // Assuming the token is returned in response.data
   } catch (error) {
-    console.error('Login error:', error);
-    throw error;
+    if (axios.isAxiosError(error) && error.response) {
+      throw new Error(error.response.data.message || 'Login failed');
+    } else {
+      throw new Error('An unknown error occurred');
+    }
   }
 };
 
 export { login };
 
+
+
+
+
+
+
+
+
+  // TODO: make a POST request to the login route

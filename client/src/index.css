@@ -5,7 +5,7 @@
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
-  color: rgba(142, 140, 140, 0.87);
+  color: rgba(114, 45, 45, 0.87);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -24,15 +24,15 @@ input:-moz-placeholder {
 
 a {
   font-weight: 500;
-  color: #000000;
+  color: #f6ecec;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #5a5c91;
 }
 
 body {
-  background: hwb(19 55% 34%);
+  background: #d9b994;
   background-size: cover;
   background-repeat: no-repeat no-repeat;
   background-position: center center;
@@ -54,12 +54,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #5b3825;
+  background-color: #40220b;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #3d406f;
 }
 button:focus,
 button:focus-visible {
@@ -67,7 +67,7 @@ button:focus-visible {
 }
 
 main {
-  color: black;
+  color: rgb(52, 37, 8);
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -77,11 +77,11 @@ main {
 tr {
   border-radius: 10px;
   background-color: #000;
-  color: white;
+  color: rgb(207, 128, 128);
 }
 
 tbody tr:nth-child(odd) {
-  background-color: #333333;
+  background-color: #8e5931;
 }
 
 /* Navbar Content */
@@ -105,7 +105,7 @@ tbody tr:nth-child(odd) {
 }
 
 .nav-title a {
-  color: #51310f;
+  color: #30240a;
 }
 
 .nav-item {
@@ -147,15 +147,15 @@ tbody tr:nth-child(odd) {
 }
 
 .todo {
-  background-color: #e9cbec;
+  background-color: #f5f0f5;
 }
 
 .inprogress {
-  background-color: #593d1c;
+  background-color: #f4f1f5;
 }
 
 .done {
-  background-color: #845319;
+  background-color: #fbf9fc;
 }
 
 .ticket-card {
@@ -183,7 +183,7 @@ tbody tr:nth-child(odd) {
 .form {
   width: 60%;
   height: 80%;
-  background-color: #c19677;
+  background-color: #b89578;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -192,7 +192,7 @@ tbody tr:nth-child(odd) {
 }
 
 .form > h1, .form > label {
-  color: rgb(48, 25, 5);
+  color: rgb(62, 36, 13);
 }
 
 .form > input {
@@ -225,14 +225,14 @@ tbody tr:nth-child(odd) {
 }
 
 .deleteBtn {
-  background-color: #f9f9f9;
+  background-color: #f6f2f2;
   font-weight: 500;
   color: black;
   text-decoration: inherit;
 }
 
 .deleteBtn:hover {
-  color: #535bf2;
+  color: #ececf4;
 }
 
 .login-notice {
@@ -245,13 +245,13 @@ tbody tr:nth-child(odd) {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #e3e7ec;
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #f0f1f5;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #f4eeee;
   }
 }
