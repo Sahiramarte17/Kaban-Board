@@ -59,7 +59,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #3d406f;
+  border-color: #281d04;
 }
 button:focus,
 button:focus-visible {
@@ -147,16 +147,17 @@ tbody tr:nth-child(odd) {
 }
 
 .todo {
-  background-color: #f5f0f5;
+  background-color: #b68962;
 }
 
 .inprogress {
-  background-color: #f4f1f5;
+  background-color: #b68962;
 }
 
 .done {
-  background-color: #fbf9fc;
+  background-color: #b68962;
 }
+
 
 .ticket-card {
   text-align: left;
@@ -170,7 +171,7 @@ tbody tr:nth-child(odd) {
 
 .container {
   /* margin: auto; */
-  width: 100%;
+  width: 150%;
   /* height: 90%; */
 }
 
@@ -181,7 +182,7 @@ tbody tr:nth-child(odd) {
 
 
 .form {
-  width: 60%;
+  width: 100%;
   height: 80%;
   background-color: #b89578;
   margin: auto;
