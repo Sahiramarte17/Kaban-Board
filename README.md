@@ -64,6 +64,12 @@ Set environment variables in Render's dashboard (same as in the .env file).
 
 Deploy both the backend and frontend from the Render dashboard.
 
+# Deploymetn Link
+
+https://kanban-board-3iv0.onrender.com
+
+
+
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
