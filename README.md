@@ -68,6 +68,14 @@ Deploy both the backend and frontend from the Render dashboard.
 
 https://kanban-board-3iv0.onrender.com
 
+# Screenshots
+![alt text](<Screenshot 2024-11-06 at 12.55.46 PM.png>)
+
+![alt text](<Screenshot 2024-11-06 at 1.00.21 PM.png>)
+
+![alt text](<Screenshot 2024-11-06 at 11.44.39 AM-1.png>)
+
+
 
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
